@@ -48,7 +48,7 @@ TEMP_FOLDER = "temp"
 OUTPUT_FOLDER = "output"
 
 # 语音识别模型配置
-SPEECH_RECOGNITION_MODEL = 'whisperx'
+SPEECH_RECOGNIZER_TYPE = 'faster_whisper'
 DEVICE_TYPE, AVAILABLE_GPUS = get_device_config()
 # WhisperX配置
 WHISPERX_MODEL_SIZE = 'large-v2'  # 模型大小 (tiny, base, small, medium, large, large-v2, large-v3)
